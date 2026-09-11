@@ -42,3 +42,12 @@ print()
 print(len(s))
 
 # 구구단 출력
+# 2 * 1 = 2  2 * 2 = 4  2 * 3 = 6  2 * 4 = 8  .. 2 * 9 = 18
+# ..
+# 9 * 1 = 9  9 * 2 = 18 .. 9 * 9 = 81
+for i in range(2, 10):
+    for j in range(1, 10):
+        print(f"{i} * {j} = {i*j:<5d}", end="")
+    print()
+else:
+    print("End")
